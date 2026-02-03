@@ -83,13 +83,15 @@ export default function Result({ recommendation, onTryAgain, onSwitchMode }: Res
         <div className="flex flex-col sm:flex-row gap-3">
           <button
             onClick={onTryAgain}
-            className="flex-1 px-6 py-4 sm:px-8 sm:py-5 bg-black text-white hover:bg-black/80 active:scale-[0.98] transition-all duration-200 text-sm sm:text-base font-light tracking-wide focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
+            className="flex-1 px-6 py-4 sm:px-8 sm:py-5 bg-black text-white hover:bg-black/80 active:scale-95 hover:scale-105 transition-all duration-300 ease-out text-sm sm:text-base font-light tracking-wide focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 hover:shadow-xl transform animate-slideInUp"
+            style={{ animationDelay: '100ms' }}
           >
             {t.result.tryAgain}
           </button>
           <button
             onClick={onSwitchMode}
-            className="flex-1 px-6 py-4 sm:px-8 sm:py-5 border border-black bg-white text-black hover:bg-black hover:text-white active:scale-[0.98] transition-all duration-200 text-sm sm:text-base font-light tracking-wide focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2"
+            className="flex-1 px-6 py-4 sm:px-8 sm:py-5 border border-black bg-white text-black hover:bg-black hover:text-white active:scale-95 hover:scale-105 transition-all duration-300 ease-out text-sm sm:text-base font-light tracking-wide focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-2 hover:shadow-xl transform animate-slideInUp"
+            style={{ animationDelay: '200ms' }}
           >
             {t.result.switchTo} {recommendation.primary.mode === 'pizza' ? t.options.cafe : t.options.pizza}
           </button>
