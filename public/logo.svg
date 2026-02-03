@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" fill="none">
+  <!-- Left half circle (solid black) -->
+  <path d="M 160 320 A 160 160 0 0 1 320 160 L 320 480 A 160 160 0 0 1 160 320 Z" fill="black"/>
+  
+  <!-- White dots on black half -->
+  <circle cx="240" cy="280" r="14" fill="white"/>
+  <circle cx="240" cy="360" r="14" fill="white"/>
+  
+  <!-- Right side pizza slice outline -->
+  <circle cx="320" cy="320" r="160" fill="white" stroke="black" stroke-width="6"/>
+  
+  <!-- Pizza slice dividers -->
+  <line x1="320" y1="320" x2="450" y2="220" stroke="black" stroke-width="6"/>
+  <line x1="320" y1="320" x2="450" y2="420" stroke="black" stroke-width="6"/>
+  
+  <!-- Pizza dots/toppings -->
+  <circle cx="380" cy="285" r="10" fill="black"/>
+  <circle cx="400" cy="340" r="10" fill="black"/>
+  <circle cx="380" cy="375" r="8" fill="black"/>
+  
+  <!-- Text -->
+  <text x="320" y="570" font-family="Arial, sans-serif" font-size="64" font-weight="bold" text-anchor="middle" fill="black" letter-spacing="2">SLICEMATCH</text>
+</svg>
