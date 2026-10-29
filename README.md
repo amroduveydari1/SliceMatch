@@ -63,6 +63,10 @@ npm run dev
 # Open http://localhost:3000
 ```
 
+## Engineering improvements to pursue
+
+This is a focused, frontend-only deterministic decision tool, not an AI model or a production ordering system. Good next steps: add table-driven tests for weighted scoring, ties, empty inputs and stable results; verify keyboard accessibility; add screenshots and a live demo; review the `next lint` script before introducing CI.
+
 ## Features
 
 - ✅ Deterministic recommendation engine with weighted scoring
