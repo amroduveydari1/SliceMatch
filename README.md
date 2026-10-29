@@ -15,7 +15,7 @@ SliceMatch asks 3 quick questions and returns a recommended order + 2 alternativ
 - No backend (v1)
 - No authentication (v1)
 
-## Design Principles (Amro Studio)
+## Design Principles 
 
 - Minimal black and white UI only
 - Grid-based layout with lots of whitespace
